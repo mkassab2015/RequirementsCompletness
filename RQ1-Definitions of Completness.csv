@@ -1,0 +1,191 @@
+Study ID,Title,Title, Does the paper define completeness of requirements ,"If yes, list the definitions provided"
+Zowghi 2003,"On the interplay between consistency, completeness, and correctness in requirements evolution","On the interplay between consistency, completeness, and correctness in requirements evolution",Yes,"Completeness refers to situations where a specification entails everything that is desired to hold in a certain context.
+Source: Proposed in this paper
+
+To be considered complete, the requirements document must exhibit three fundamental characteristics: (1) No information is left unstated or 'to be determined', (2) The information does not contain any undefined objects or entities, (3) No information is missing from this document.
+Source: Boehm, B.W., ""Verifying and validating software requirements and design specifications,"" IEEE Software, vol. 1, no. 1, pp. 75-88, 1984.
+
+External completeness ensures that all of the information required for problem definition is found within the specification.
+Source: Cordes, D.W., and Carver, D.L., ""Evaluation methods for user requirements documents,"" Information and System Technology, vol. 31, no. 4, pp. 181-188, 1989."
+Issa 2010,Use case patterns driven requirements engineering,Use Case Patterns Driven Requirements Engineering,No,
+Menzel 2010,An experimental comparison regarding the completeness of functional requirements specifications,An Experimental Comparison regarding the Completeness of Functional Requirements Specifications,No,
+Liu 2009,Domain component-based service requirements modeling and analysis,Domain Component-based Service Requirements Modeling and Analysis,,"Owing to frequent changes of individual or collective requirements, continuous evolution of system function and structure, the study object of services-oriented requirement complete analysis is relative completeness of services requirements but not absolute completeness.
+Source: Proposed in this paper
+"
+Issa 2011,Automated requirements engineering: Use case patterns-driven approach,Automated requirements engineering: use case patterns-driven approach,No,
+Kaiya 2010,Enhancing domain knowledge for requirements elicitation with Web mining,Enhancing Domain Knowledge for Requirements Elicitation with Web Mining,No,
+Iqbal 2012,Yet another set of requirement metrics for software projects,Yet another Set of Requirement Metrics for Software Projects,No,
+Espada 2011,Measuring complexity and completeness of KAOS goal models,Measuring Complexity and Completeness of KAOS Goal Models,Yes,"In a complete KAOS goal model, all leaf goals must be assigned to an agent.
+Source: Proposed in this paper"
+Hu 2010,Semantic-based requirements analysis and verification,Semantic-based Requirements Analysis and Verification,Yes,"Formula 4: Completeness = |Fm|/|O|
+Source: Proposed in this paper
+"
+Zhu 2000,Automating scenario-driven structured requirements engineering,Automating Scenario-Driven Structured Requirements Engineering,Yes,"Checking the consistency against the set of scenarios covers all the information contained in the model. In this sense, the completeness of a set of scenarios with respect to a requirements model means the adequacy of validation.
+Source: Proposed in this paper
+
+
+Assuming that a set of scenarios is complete in the sense that it already contains all the information of the required system, incompleteness then means that the model must contain unnecessary or incorrect information.
+Source: Proposed in this paper
+
+A data flow model M can be uniquely synthesised from a set of scenarios that is consistent and complete with respect to M, if and only if the set of scenarios is consistent and self-complete.
+Source: Proposed in this paper"
+Huertas 2012,"NLARE, a natural language processing tool for automatic requirements evaluation","NLARE, A Natural Language Processing Tool for Automatic Requirements Evaluation",Yes,"In order to validate the completeness, we propose that a requirement must have the following elements: Actor A, Function F and Detail
+Source: Proposed in this paper
+"
+Kamalrudin 2011,Improving requirements quality using essential use case interaction patterns,Improving Requirements Quality using Essential Use Case Interaction Patterns,Yes,"The set of requirements are assumed to be ""complete"" [18] once all the requirements model elements satisfy a match or matches in the EUC interaction pattern library.
+Source: Proposed in this paper
+"
+Yu 2008,Completeness and consistency analysis on requirements of distributed event-driven systems,Completeness and Consistency Analysis on Requirements of Distributed Event-Driven Systems,Yes,"Completeness: Presence of all event handlers or actions for condition guards of all events.
+Source: Proposed in this paper
+
+If the system is considered as complete, the system must respond to all the specified events, internal or external, in any system states defined as conditions guards.
+Source: Proposed in this paper"
+España 2010,An empirical comparative evaluation of requirements engineering methods,An empirical comparative evaluation of requirements engineering methods,Yes,"Lindland et al. [26] define that a model (M) has achieved semantic completeness if it contains all the statements about the domain (D) that are correct and relevant. That is, D\M = ∅.
+Source: Referenced from Lindland OI, Sindre G, Sølvberg A (1994) Understanding quality in conceptual modeling. IEEE Softw 11(2):42–49
+
+A model has achieved feasible completeness when there is no relevant statement about the domain, not yet included in the model, such that the additional benefit to the conceptual model from including the relevant statement exceeds the drawbacks of including it. That is, D\M = S = ∅, where S is the set of correct and relevant statements not yet in the model.
+Source: Referenced from Lindland OI, Sindre G, Sølvberg A (1994) Understanding quality in conceptual modeling. IEEE Softw 11(2):42–49
+
+A germinal definition states that a model has achieved feasible functional completeness whenever all relevant functional requirements that are worth being specified have been included in the model (adapted from [26]).
+Source: Proposed in this paper, adapted from Lindland OI, Sindre G, Sølvberg A (1994) Understanding quality in conceptual modeling. IEEE Softw 11(2):42–49"
+Kaiya 2006,Using domain ontology as domain knowledge for requirements elicitation,Using Domain Ontology as Domain Knowledge for Requirements Elicitation,Yes,"Completeness (CMP) : The ontological elements that did not have any mapped requirements items can be candidates for missing requirements items
+Source: Proposed in this paper
+"
+Gnesi 2005,An automatic tool for the analysis of natural language requirements,An Automatic Tool for the Analysis of Natural Language Requirements,No,
+Xiaoxia 2008,Verifying service-oriented requirements using model checking,Verifying Service-Oriented Requirements using Model Checking,Yes,"Suppose fm is service-oriented feature model, f is a service feature, fm is called as complete service-oriented feature model iff ∀f ∈ fm.F ⇒ f. Rs ⊆ fm.F.
+Source: Proposed in this paper
+"
+Kim 2003,"Assessment of high integrity software components for completeness, consistency, fault-tolerance, and reliability","Assessment of High Integrity Software Components for Completeness, Consistency, Fault-Tolerance, and Reliability",Yes,"The completeness of a specification is defined as a lack of ambiguity in terms of creating an implementation that can satisfy the specified requirements. Thus, the specification is incomplete if the system behavior is not precisely stated because the required behavior for some events or conditions is omitted or is subject to multiple interpretations
+Source: Proposed in this paper"
+Alrajeh 2012,Generating obstacle conditions for requirements completeness,Generating Obstacle Conditions for Requirements Completeness,No,
+Ahuja 2014,Systems and context modeling approach to requirements analysis,Systems and Context Modeling Approach to Requirements Analysis,No,
+Nwokeji 2014,Automated completeness check in KAOS,Automated Completeness Check in KAOS,,"A KAOS goal model is said to be complete when all leaf goals are assigned to agents-active entities, machine or human, in a system
+Source: Referenced from [15] (Respect-IT. A kaos tutorial (2007))
+
+Completeness Criteria 1: All goals must be refined until they become either leaf goals (expectations and requirements) or domain property.
+Source: Proposed in this paper
+
+Completeness Criteria 2: All leaf goals must be assigned to agents.
+Source: Proposed in this paper
+
+Completeness Criteria 3: All agents, especially machine or software agents, must be assigned to operations.
+Source: Proposed in this paper"
+Miao 2016,Automated requirements validation for ATP software via specification review and testing,Automated Requirements Validation for ATP Software via Specification Review and Testing,No,
+Espada 2013,A framework to evaluate complexity and completeness of KAOS goal models,A Framework to Evaluate Complexity and Completeness of KAOS Goal Models,Yes,"For the sake of completeness of the goal model, each leaf goal must be assigned to an agent
+Source: Proposed in this paper
+"
+Moketar 2016,TestMEReq: Generating abstract tests for requirements validation,TestMEReq: Generating Abstract Tests for Requirements Validation,No,
+Zhou 2014,A TASM-based requirements validation approach for safety-critical embedded systems, A TASM-based Requirements Validation Approach for Safety-critical Embedded Systems,Yes,"ompleteness refers to situations where the requirements must possess two fundamental characteristics, in terms of neither objects nor entities are left undefined and the requirements can address all of the features.
+Source: Proposed in this paper"
+Zenuna 2013,A framework for completeness in requirements engineering: An application in aircraft maintenance scenario,A Framework for Completeness in Requirements Engineering: An Application in Aircraft Maintenance Scenario,Yes,"Completeness in transport category airplane is defined by Aerospace Recommended Practice (ARP) 4754A as the degree to which a set of correct requirements, when met by a system, satisfy the interests of customers, users, maintainers, certification authorities as well as aircraft, system and item developers under all modes of operation and life cycle phases for the defined operating environment.
+Source: Society of Automotive Engineers – (SAE), Aerospace Recommended Practice (ARP) 4754A: Development of civil aircraft and systems, Warrendale, 2011.
+
+According to Carson et al. (2004), the completeness of the problem statement step is that all stakeholder interfaces are identified and quantified for all applicable life cycle phases (development, production, certification, training, operation, maintenance, and disposal phases) and relating operating modes.
+"
+Sarmiento 2016,"Using correctness, consistency, and completeness patterns for automated scenarios verification","Using Correctness, Consistency, and Completeness Patterns for Automated Scenarios Verification",Yes,"A specification is complete to the extent that all of its parts are present and each part is fully developed
+Source: Referenced from Boehm, B. W. ""Guidelines for verifying and validating software requirements and design specifications,"" Proc. European Conf. Applied Information Technology (IFIP ',79), pp. 711-719, Sept. 1979.
+
+We understand that a fully developed SRS is uniform and feasible, i.e. (1) each operation or condition is constructed using syntax and semantic rules; and (2) it is possible to perform each operation described by them and each internal/external condition is not violated.
+Source: Proposed in this paper
+"
+Cailliau 2013,Assessing requirements-related risks through probabilistic goals and obstacles,Assessing requirements-related risks through probabilistic goals and obstacles,Yes,Having all relevant goals and obstacles identified in the goal model
+Yue 2015,aToucan: An automated framework to derive UML analysis models from use case models,aToucan: An Automated Framework to Derive UML Analysis Models from Use Case Models,No,
+Ferrari 2014,Measuring and improving the completeness of natural language requirements,Measuring and Improving the Completeness of Natural Language Requirements,Yes,"Backward functional completeness is achieved by a functional requirements specification when (1) all the relevant concepts expressed in the input documents are treated in the requirements specification; (2) all the relevant interactions among concepts expressed in the input documents are treated in the requirements specification.
+Source: Proposed in this paper
+
+A requirements specification is complete if all the necessary requirements are included
+Source: Referenced from Boehm [6] (IEEE citation: B. Boehm, ""Verifying and validating software requirements and design specifications,"" IEEE Software, vol. 1, no. 1, pp. 75–88, 1984.)
+
+A complete specification shall exhibit five properties: 1) No To-be-determined (TBD) items 2) No nonexistent references 3) No missing specification items (e.g., missing interface specifications) 4) No missing functions 5) No missing products (i.e., part of the actual software that are not mentioned in the specification).
+Source: Referenced from Boehm [7] (IEEE citation: B. Boehm, ""Verifying and validating software requirements and design specifications,"" IEEE Software, vol. 1, no. 1, pp. 75–88, 1984.)
+
+M has achieved semantic completeness if it contains all the statements about the domain D that are correct and relevant (i.e., D \ M = ∅).
+Source: Referenced from Lindland et al. [9] (IEEE citation: O. Lindland, G. Sindre, and A. Solvberg, ""Understanding quality in conceptual modeling,"" IEEE Software, vol. 11, no. 2, pp. 42–49, 1994.)
+
+Feasible semantic completeness as D \ M = S ≠ ∅. The set S is composed of correct and relevant statements, but there is no statement in S such as the benefit of including it in the specification exceeds the drawback of including it.
+Source: Referenced from Lindland et al. [9] (IEEE citation: O. Lindland, G. Sindre, and A. Solvberg, ""Understanding quality in conceptual modeling,"" IEEE Software, vol. 11, no. 2, pp. 42–49, 1994.)"
+Kaiya 2012,Improving software quality requirements specifications using spectrum analysis,Improving Software Quality Requirements Specifications using Spectrum Analysis,No,
+Barnat 2016,Analysing sanity of requirements for avionics systems,Analysing sanity of requirements for avionics systems,Yes,"a complete set of requirements extends to all sensible behaviours of a system.
+Source: Proposed in this paper
+
+Assuming that the user specifies what behaviour of the system is sensible, our coverage metric calculated what portion of this behaviour is described by the requirements specifying the system itself.
+Source: Proposed in this paper"
+Eckhardt 2016,Challenging Incompleteness of Performance Requirements by Sentence Patterns,Challenging Incompleteness of Performance Requirements by Sentence Patterns,Yes,"Given a performance requirement, we define the completeness of the requirements with respect to the presence of all mandatory content elements, i.e., we call a requirement complete if all mandatory content elements are present in the textual representation of the requirement.
+Source: Proposed in this paper
+
+Definition (Strong Completeness of Performance Requirements). A performance requirement is strongly complete, if all mandatory content elements (w.r.t the content model) are explicitly contained in its textual representation.
+Source: Proposed in this paper
+
+Definition (Weak Completeness of Performance Requirements). A performance requirement is weakly complete, if all mandatory content elements (w.r.t. the content model) are explicitly or implicitly contained in its textual representation
+Source: Proposed in this paper
+
+Definition (Incompleteness of Performance Requirements). A performance requirement is incomplete, if at least one mandatory content elements (w.r.t. the content model) is missing in its textual representation.
+Source: Proposed in this paper
+"
+Jurkiewicz 2015,HAZOP-based identification of events in use cases: An empirical study,HAZOP-based identification of events in use cases: An empirical study,Yes,"A use case is event complete if it contains description of all the events that can happen when executing the use case.
+"
+Gralha 2015,Metrics for measuring complexity and completeness for social goal models,Metrics for measuring complexity and completeness for social goal models,No,
+Stephen 2017,Framework for measuring the quality of software specification,Framework for Measuring the Quality of Software Specification,No,
+Alshareef 2020,Validation framework for aspectual requirements engineering (ValFAR),Validation Framework for Aspectual Requirements Engineering (ValFAR),No,
+Chattopadhyay 2023,Completeness of Natural Language Requirements: A Comparative Study of User Stories and Feature Descriptions,Completeness of Natural Language Requirements: A Comparative Study of User Stories and Feature Descriptions,Yes,"Requirements are complete if all the correct and relevant statements for solving the problem in a given domain are expressed in an explicit manner.
+Source: Referenced from [1] O. I. Lindland, G. Sindre, and A. Sølvberg, ""Understanding quality in conceptual modeling,"" IEEE Software, vol. 11, no. 2, pp. 42–49, March 1994.
+"
+Luitel 2023,Using Language Models for Enhancing the Completeness of Natural-Language Requirements,Using Language Models for Enhancing the Completeness of Natural-Language Requirements,,"Internal completeness is concerned with requirements being closed with respect to the functions and qualities that one can infer exclusively from the requirements
+Source: Referenced from D. Zowghi and V. Gervasi, ""On the interplay between consistency, completeness, and correctness in requirements evolution,"" Information and Software Technology, vol. 45, no. 14, pp. 993–1009, 2003.
+
+External completeness is concerned with ensuring that requirements are encompassing of all the information that external sources of knowledge suggest the requirements should cover.
+Source: Referenced from D. Zowghi and V. Gervasi, ""On the interplay between consistency, completeness, and correctness in requirements evolution,"" Information and Software Technology, vol. 45, no. 14, pp. 993–1009, 2003.
+
+External completeness is a relative measure, since the external sources may be incomplete themselves or not all the relevant external sources may be known
+"
+Amaral 2022,AI-Enabled Automation for Completeness Checking of Privacy Policies,AI-Enabled Automation for Completeness Checking of Privacy Policies,Yes,"A privacy policy is deemed ""complete"" according to GDPR if it explicitly contains certain information mandatory for ensuring data protection and privacy rights, e.g., about the rights individuals have over their personal data.
+Source: Proposed in this paper
+"
+Bankauskaite 2018,An approach: SysML-based automated completeness evaluation of the system requirements specification,An Approach: SysML-based Automated Completeness Evaluation of the System Requirements Specification,Yes,"We understand the completeness of the SRS as atomic requirements coverage by atomic model elements
+Source: Proposed in this paper
+
+"
+Crapo 2017,Requirements Capture and Analysis in ASSERT(TM),Requirements Capture and Analysis in ASSERT™,No,
+Iqbal 2019,Forward engineering completeness for software by using requirements validation framework,Forward Engineering Completeness for Software by Using Requirements Validation Framework,Yes,"Completeness is defined as 'the state or condition of having all the necessary or appropriate parts
+Source: Referenced (Oxford Dictionary citation provided: [16] G. D. S. Hadad, C. S. Litvak, J. H. Doorn, M. Ridao, Dealing with Completeness in Requirements Engineering, McGraw-Hill Education, New York, USA, 5th ed, 2015.)
+
+Whereas requirements completeness is defined as 'a quality demanded to the set of software requirements and to each requirement itself, in order to ensure that there is no information left aside
+Source: Referenced (Citation provided: [17] M. K. Pour, ""Encyclopedia of Information Science and Technology"", IGI Global, USA, 4th ed, 2017.)
+
+The software after the development process is said to be in the completeness form, if it satisfies all the functional and non-functional requirements.
+Source: Proposed in this paper"
+Luitel 2024,Improving requirements completeness: automated assistance through large language models,Improving requirements completeness: automated assistance through large language models,,"The RE literature identifies two different notions of completeness [53]: (1) Internal completeness pertains to requirements being closed in terms of the functions and qualities that can be deduced solely from the requirements. (2) External completeness focuses on ensuring that requirements encompass all the information suggested by external sources of knowledge. These sources can include individuals (such as stakeholders) or artifacts like higher-level requirements and existing system descriptions [4].
+
+Source: Referenced from Didar Z, Vincenzo G (2003) On the interplay between consistency, completeness, and correctness in requirements evolution. Inf Softw Technol 45(14):993–1009"
+Ahmad 2018,A tool-based boilerplate technique to improve SRS quality: An evaluation,A Tool-based Boilerplate Technique to Improve SRS Quality: An Evaluation,No,
+Audacio 2021,"A Method to Evaluating Consistency, Completeness and Correctness in Evolution Requirements","A Method to Evaluating Consistency, Completeness and Correctness in Evolution Requirements",Yes,"For a requirement to be complete, it must contain at least three characteristics, namely: 1) No information should be left as undeclared, undetermined or unrelated to the domain; 2) The information must not contain objects, entities or indefinite terms, that is, each operation or condition must be constructed using syntax and semantic rules and 3) No information must be absent, that is, all parts or units must be present and each part or unit must be fully developed
+"
+Muhairat 2020,An intelligent recommender system based on association rule analysis for requirement engineering,An Intelligent Recommender System Based on Association Rule Analysis for Requirement Engineering,No,
+Kravari 2021,Sense: A flow-down semantics-based requirements engineering framework,SENSE: A Flow-Down Semantics-Based Requirements Engineering Framework,No,
+Abbadi 2022,Enhancing Requirements Completeness of Automated Driving System in Concept Phase,Enhancing Requirements Completeness of Automated Driving System in Concept Phase,Yes,"A set of requirements is complete if and only if all stakeholders approve the set of requirements
+Source: Referenced from ""R.S. Carson, et al., ""Requirements completeness,"" in INCOSE International Symposium, p. 14, 2004, https://doi.org/10.1002/j.2334-5837.2004.tb00546.x""
+"
+HuffmanHayes 2020,Towards Improved Network Security Requirements and Policy: Domain-Specific Completeness Analysis via Topic Modeling,Towards Improved Network Security Requirements and Policy: Domain-Specific Completeness Analysis via Topic Modeling,Yes,"Informally, we define a network policy document to be complete if the document describes all issues necessary for a wireless network acceptable use policy, and if each issue is discussed to a sufficient level of detail.
+Source: Proposed in this paper"
+Xiang 2023,PolicyChecker: Analyzing the GDPR Completeness of Mobile Apps' Privacy Policies,PolicyChecker: Analyzing the GDPR Completeness of Mobile Apps' Privacy Policies,Yes,"GDPR-complete, i.e., all information pertinent to the mandatory and if-applicable requirements specified in Arts. 13 and 14 must be presented in a privacy policy.
+Source: Proposed in this paper"
+Al-Kasabera 2020,An automated approach to validate requirements specification,An Automated Approach to Validate Requirements Specification,Yes,"Software Requirements Specification (SRS) is complete [13] if it includes the following elements: First, all the requirements related to functionality attributes in SRS should be treated. Second, the definition of the responses of the software to all realizable classes of input data, in all realizable classes of situations, note that it is important to specify the responses to both valid and invalid input values. Third, all the diagrams, labels, figures, term definitions and measures should be referenced and labelled.
+Source: A. Al-Hroob, A. T. Imam, and R. Al-Heisa, ""The use of artificial neural networks for extracting actions and actors from requirements document,"" Information and Software Technology, vol. 101, pp. 1-15, 2018."
+Stephen 2020,Evaluation of software requirement specification based on IEEE 830 quality properties,Evaluation of Software Requirement Specification Based on IEEE 830 Quality Properties,No,
+UmarOng 2023,A Meta-Requirement Approach to Validate User Requirement Specification: Threshold Definition,A Meta-Requirement Approach to Validate User Requirement Specification: Threshold Definition,Yes,"User requirement completeness refers to the extent to which user requirements accurately and fully capture the needs and expectations of stakeholders for a given system or application.
+Source: Proposed in this paper"
+Torre 2020,An AI-Assisted Approach for Checking the Completeness of Privacy Policies against GDPR,An AI-assisted Approach for Checking the Completeness of Privacy Policies Against GDPR,Yes,"We use the term ""complete"" rather than ""compliant"" to signify the fact that our current approach can only detect the presence (or absence) of the information content types that GDPR envisages for privacy policies; we do not yet perform a deep semantic analysis of the detected content for verifying compliance.
+Source: Proposed in this paper
+"
+Huayllani 2020,A granular conceptual model to define requirements for evaluating the functional completeness of a pharmacy information system,A Granular Conceptual Model to Define Requirements for Evaluating the Functional Completeness of a Pharmacy Information System,Yes,"Functional completeness is a quality attribute that is part of the ISO / IEC 25010 standard and represents the degree to which the set of functionalities delivered covers all the tasks and objectives requested by the user.
+Source: Referenced from ISO 25010 standard. Full citation not provided in the paper.
+
+According to the definition of ISO 25010, functional completeness is the 'Degree to which the set of functions covers all the specified tasks and user objectives.
+Source: ISO/IEC, ""ISO/IEC 25010:2011.Systems and software engineering — Systems and software Quality Requirements and Evaluation (SQuaRE) — System and software quality models,"" ISO/IEC, 2011."
+Ong 2019,Meta-requirement method towards analyzing completeness of requirements specification,Meta-requirement Method Towards Analyzing Completeness of Requirements Specification,No,
+Azeem 2024,A Multi-solution Study on GDPR AI-enabled Completeness Checking of DPAs,A Multi-solution Study on GDPR AI-enabled Completeness Checking of DPAs,No,
+Jiménez 2023,USQA: A User Story Quality Analyzer prototype for supporting software engineering students,USQA: A User Story Quality Analyzer prototype for supporting software engineering students,Yes,"Implementing a set of user stories creates a feature‐complete application, no steps are missing
+Source: Referenced from G. Lucassen, F. Dalpiaz, J. M. E. M. van der Werf, and S. Brinkkemper, ""Forging high‐quality user stories: towards a discipline for agile requirements,"" 2015 IEEE 23rd Int. Requir. Eng. Conf. (RE), 2015, pp. 126–135. https://doi.org/10.1109/RE.2015.7320415"
+Ko 2019,Automatic recommendation to omitted steps in use case specification,Automatic recommendation to omitted steps in use case specification,No,
+Meincke 2020,"Requirements in the loop : A computer-Aided analysis of consistency, completeness, and correctness of requirements","Requirements in the loop: A computer-aided analysis of consistency, completeness and correctness of requirements",Yes,"Completeness is given if for each requirement a fulfilling trace was generated that obeys all other requirements.
+Source: Proposed in this paper"

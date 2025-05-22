@@ -1,0 +1,144 @@
+Study ID,Title,19.  Tools:,1 Tool Name,1 Proposed/Referenced,"1 Purpose (Detect, Measure, Correct, Other)",1 Description of Tool Implementation,1 Description of Functionality,"1 Status (Proposed, Implemented, Validated)",1 Method of Validation (if applicable)
+Zowghi 2003,"On the interplay between consistency, completeness, and correctness in requirements evolution",,SMACK,Proposed in this paper,"Detect, Measure",Simple propositional logic model checker,Checks consistency and completeness of requirements expressed in propositional logic,"Implemented, Validated","Used on case study example in paper, no formal validation described. The paper states: ""We carry on the proof using a simple ad-hoc model checker for propositional logic, called SMACK, that we developed in-house in support of our framework."""
+Liu 2009,Domain component-based service requirements modeling and analysis,,Service Requirements Complete Analyzer, Proposed in this paper,"Detect, Measure, Correct", A software tool developed to implement the proposed approach,"The tool constructs a requirement component directed graph automatically based on initial requirements and domain knowledge. It can generate, clear, delete, optimize, and submit requirement components.",Implemented,
+Issa 2011,Automated requirements engineering: Use case patterns-driven approach,,Automated Use Case Patterns Catalogue,Proposed in this paper,"Detect, Measure, Correct",Implemented as a plugin for the StarUML open-source CASE tool,"Browse and select use case patterns from catalogue
+Create and maintain user projects
+Load selected patterns into StarUML
+Maintain catalogue (add/update patterns and application domains)
+Calculate completeness metrics (Overall Catalogue Recall, Actual Catalogue Recall)","Implemented, Validated","Applied in 2 additional projects, compared against manual approach. Showed 43% additional time savings over manual approach while maintaining similar completeness levels."
+Kaiya 2010,Enhancing domain knowledge for requirements elicitation with Web mining,,OREW (domain Ontology Reconstruction Environment by Web search),Proposed in this paper,"Detect, Measure", Supports the proposed ontology enhancement method,"Divides ontology into sub-domains
+Performs web mining using Yahoo! Web API
+Identifies and prioritizes candidate concepts
+Provides GUI for selecting new concepts to add to the ontology"," Implemented, Validated","Used in the comparative experiment to enhance ontologies, which led to improved completeness and correctness of elicited requirements"
+Zhu 2000,Automating scenario-driven structured requirements engineering,,RASS (Requirements Analysis and Specification System),Proposed in this paper,"Detect, Measure, Correct",Automated toolkit for scenario analysis and requirements validation,"Scenario consistency and completeness checking
+Requirements model synthesis
+Test scenario generation
+Test adequacy measurement","Implemented, Validated","Empirical studies conducted, but detailed results not provided in this paper."
+Huertas 2012,"NLARE, a natural language processing tool for automatic requirements evaluation",,NLARE (Natural Language Automatic Requirement Evaluator),Proposed in this paper,"Detect, Measure","The tool is implemented as a command-line application using Python, with the NLTK (Natural Language ToolKit) for processing and PyEnchant library for spell checking.","NLARE processes requirements text to detect issues related to atomicity, ambiguity, and completeness. For completeness, it checks for the presence of Actor, Function, and Detail elements in each requirement.","Implemented, Validated","The tool was validated by comparing its results to human evaluation on a real project. For completeness detection, it achieved 56% concordance with human evaluation. The tool was also evaluated for speed, processing 237.6 requirements per minute compared to 0.9 requirements per minute for manual evaluation."
+Kamalrudin 2011,Improving requirements quality using essential use case interaction patterns,,MaramaAI (Automated Inconsistency checker),Proposed in this paper,"Detect, Measure, Correct","Developed using Marama meta-tools and specialized components for requirements extraction, analysis, comparison to pattern library, and visual differencing.","Extracts abstract interactions from textual natural language requirements
+Generates EUC models from abstract interactions
+Checks consistency between textual requirements, abstract interactions, and EUC models
+Compares extracted EUC models against a library of EUC interaction patterns
+Highlights inconsistencies, incompleteness, and incorrectness using visual differencing
+Supports interactive resolution of identified issues","Implemented, Validated","Validated through a user study with 11 participants, focusing on usefulness, ease of use, ease of learning, and user satisfaction. The study also included a Cognitive Dimensions of Notations analysis."
+Yu 2008,Completeness and consistency analysis on requirements of distributed event-driven systems,,Not specified,Proposed in this paper,"Detect, Measure","The paper mentions that the process of extracting scenario elements from the formal scenario model is ""implemented in Java."" However, it does not provide detailed information about the full tool implementation.","The tool functionality includes:
+
+Parsing a formal scenario model to recognize tokens and organize the syntax tree
+Generating an XML format file based on the syntax tree
+Traversing the XML DOM tree to extract condition guards, associated events, and actions
+Constructing a condition guard tree
+Performing completeness analysis on the tree
+Performing consistency analysis on the tree
+Status: Proposed, Partially Implemented
+Validation: Not validated in this paper. The paper provides an example application (Car Alarm System) to illustrate the approach, but does not present a formal validation of the tool.",,
+Gnesi 2005,An automatic tool for the analysis of natural language requirements,,QuARS (Quality Analyzer for Requirement Specifications),Proposed in this paper,"Detect, Measure",Software tool implemented in C++ with a graphical user interface,"Performs linguistic analysis of natural language requirements
+Detects potential defects related to expressiveness, consistency, and completeness
+Calculates metrics such as defect rates and readability index
+Clusters requirements into ""Views"" based on specific topics or aspects","Implemented, Validated",Validated through multiple case studies with industrial requirements documents. The tool demonstrated ability to detect defects not found by manual analysis and provided consistent results across different domains.
+Xiaoxia 2008,Verifying service-oriented requirements using model checking,,SMV (Symbolic Model Verifier),Referenced ,Measure,Not described in detail in the paper,SMV is mentioned as the model checker used to verify the CTL formulas generated from the SOFM.,, Not validated in this paper.
+Kim 2003,"Assessment of high integrity software components for completeness, consistency, fault-tolerance, and reliability",,"Z/Eves
+",Referenced,"Detect
+",Not described in detail in the paper,"Z/Eves is a tool for analyzing and proving Z specifications
+"," Implemented, Validated",
+Alrajeh 2012,Generating obstacle conditions for requirements completeness,,XHAIL,Referenced ,Detect,Inductive Logic Programming system,Used for learning obstacles from examples,"Implemented, Validated",Used in experiments on the London Ambulance Service case study
+Ahuja 2014,Systems and context modeling approach to requirements analysis,,Eclipse Modeling Framework (EMF), Referenced,Detect,"Used to create metamodels for domain knowledge and system information
+","Provides a framework for creating structured models of domain knowledge and system information
+","Implemented
+",Not validated in this paper
+Nwokeji 2014,Automated completeness check in KAOS,,Ktool with Automated Completeness Check,Proposed in this paper,"Detect, Measure",The tool is implemented by integrating Epsilon Validation Language (EVL) constraints with a graphics editor (Ktool) developed using the Eclipse Modelling Framework (EMF).,The tool provides a graphical interface for creating KAOS models and automatically checks the model against the three completeness criteria. It provides visual feedback (error signs) and error messages when incompleteness is detected.,"Proposed, Implemented, Validated",The tool was validated using a simple case study of a card payment system. The validation demonstrated the tool's ability to detect incompleteness in KAOS models and guide users towards completing the model.
+Miao 2016,Automated requirements validation for ATP software via specification review and testing,,Unnamed supporting tool,Proposed in this paper,"Detect, Measure",Custom tool developed by authors,"Transforms CASDL specification to executable prototype
+Generates Variable Dependency Diagrams (VDDs) and State Transition Diagrams (STDs)
+Executes prototype against test scenarios
+Calculates statement coverage
+Generates test reports and visualizations"," Implemented, Validated",Applied to real ATP software project specification with 455 requirements items. Detected more errors and reduced validation time compared to manual review.
+Espada 2013,A framework to evaluate complexity and completeness of KAOS goal models,,modularKAOS,Proposed in this paper," Detect, Measure","Extension of an existing KAOS modeling tool, implemented using Model-Driven Development techniques on the Eclipse platform.",Allows building KAOS goal models and provides real-time feedback on completeness and complexity metrics.,"Implemented, Validated",Used to model and analyze several real-world case studies. Results of applying the metrics to these case studies are presented in the paper.
+Moketar 2016,TestMEReq: Generating abstract tests for requirements validation,,TestMEReq,Proposed in this paper,"Detect, Measure, Correct",utomated tool that generates abstract tests and mock-up UI prototypes from requirements,"Transforms natural language requirements into Essential Use Case (EUC) and Essential User Interface (EUI) models
+Generates test requirements and test cases from the EUC and EUI models
+Creates mock-up UI prototypes based on the generated tests
+Provides traceability between textual requirements, models, and generated artifacts
+Allows users to validate requirements by reviewing and testing the generated artifacts","Implemented, Validated","Accuracy evaluation using 100 requirements scenarios from 15 software applications (84% average correctness)
+Usability study with 3 expert requirements engineers and 79 undergraduate students (high ratings for usefulness, ease of use, and satisfaction)"
+Zhou 2014,A TASM-based requirements validation approach for safety-critical embedded systems,,TASM Toolset,Proposed in this paper,"Detect, Measure"," Not described in detail
+","Executes TASM models, performs logical consistency checking, and detects undefined auxiliary machines","Implemented, Validated
+",Validated through application to the BbW case study. Successfully detected undefined auxiliary machines and performed logical consistency checking.
+Sarmiento 2016,"Using correctness, consistency, and completeness patterns for automated scenarios verification",,PIPE2 (Platform Independent Petri net Editor 2),Referenced,"Detect, Measure",Not described in detail in the paper,"Allows creation and analysis of Petri-Net models, which are used in the paper's approach to verify completeness-related properties of scenarios",Implemented,"The paper demonstrates the use of PIPE2 for verifying the Petri-Net of the ""Submit Order"" scenario, successfully detecting a deadlock. However, no formal validation of the tool itself is presented in the paper."
+Yue 2015,aToucan: An automated framework to derive UML analysis models from use case models,,aToucan,Proposed in this paper,"Detect, Measure","Eclipse plug-in using EMF, Stanford Parser, and Kermeta","Automatically generates UML analysis models (class, sequence, and activity diagrams) from use case models written in RUCM","Implemented, Validated","Validated through seven case studies for class diagrams, six case studies for sequence diagrams, five case studies for activity diagrams, and two industrial case studies. Compared against expert solutions, Masters students' solutions, and trained fourth-year undergraduate students' solutions."
+Ferrari 2014,Measuring and improving the completeness of natural language requirements,,Completeness Assistant for Requirements (CAR),Proposed in this paper,"Detect, Measure, Correct",The tool is implemented as a prototype that integrates natural language processing techniques for term and relation extraction from input documents. It provides an interactive interface for requirements writing.,"Extracts relevant terms and relations from input documents using contrastive analysis and linguistic techniques.
+Suggests terms and relations to the user during requirements writing.
+Automatically calculates and updates completeness metrics (degCC and degIC) as requirements are written.
+Allows users to add or suspend terms and relations.
+Displays the original input document for reference.","Proposed, Implemented, Validated","The tool was validated through a pilot test with two subjects writing requirements for an Automatic Train Supervision system. The test compared the completeness of requirements written with and without the tool. Results showed improved backward functional completeness when using the tool, but mixed results for forward functional completeness. The tool was found to be particularly useful in identifying specific cases and alternative behaviors that might be overlooked without tool support."
+Barnat 2016,Analysing sanity of requirements for avionics systems,,"DiVinE
+","Brim L, ˇ Ceˇ ska M, Ro ˇ ckai P (2010) DiVinE: parallel distributed model checker. In: Proceedings of HiBi/PDMC, pp ˇ
+4–7","Detect, Measure",Parallel explicit-state LTL model checker,"Translates LTL to Büchi automata, performs automata operations","Implemented, Validated
+","Used in experiments, but specific validation not described for completeness checking"
+Gralha 2015,Metrics for measuring complexity and completeness for social goal models,,Eclipse-based i* editor with metrics support,Proposed in this paper,"Detect, Measure","The tool is implemented as an Eclipse-based i* editor using Epsilon, EMF/GMF, and Ecore Tools.","Allows creation of i* models using a visual language
+Computes complexity and completeness metrics on demand during the modelling process
+Metrics are defined using OCL upon the i* meta-model","Implemented, Validated
+",The tool was validated by applying it to ten well-known i* models from industry and academia. The results demonstrated the tool's ability to compute the defined metrics and provide insights into model complexity and completeness.
+Chattopadhyay 2023,Completeness of Natural Language Requirements: A Comparative Study of User Stories and Feature Descriptions,,Frame Semantics-based Completeness Analysis Tool Chain,Proposed in this paper,"Detect, Measure","The tool chain integrates several components:
+
+Open-SESAME for Part-of-Speech tagging and verb identification
+FrameNet for lexical unit and frame element lookup
+NLTK (Natural Language Toolkit) for processing","utomatically processes natural language requirements, identifies verbs, maps them to lexical units in FrameNet, identifies expected and actual frame elements, and computes a completeness ratio.
+","Implemented, Validated",The tool was validated through a comparative study of 133 user stories from the Scholar@UC project and 133 feature descriptions from Zoom. Statistical tests (Mann-Whitney U test) were used to compare the completeness ratios between the two types of requirements.
+Luitel 2023,Using Language Models for Enhancing the Completeness of Natural-Language Requirements,,BERT-based Completeness Enhancement Tool (not explicitly named in the paper),Proposed in this paper,"Detect, Measure","Python-based implementation using various libraries:
+
+SpaCy 3.2.2 for NLP pipeline
+GloVe for word embeddings
+Transformers 4.16.2 by Hugging Face for BERT
+PyTorch 1.10.2+cu113 for BERT operation
+WEKA 3-8-5 for ML-based filters
+scikit-learn 1.0.2 for TF-IDF vectorization","Preprocesses requirements using NLP techniques
+Masks words in requirements
+Generates predictions using BERT
+Filters predictions using ML-based classifiers
+Provides recommendations for potentially missing terminology","Implemented, Validated
+",Empirically validated using 40 requirements specifications from the PURE dataset. Validation involved simulating incompleteness and measuring the tool's ability to predict missing terminology.
+Amaral 2022,AI-Enabled Automation for Completeness Checking of Privacy Policies,,CompAI,Proposed in this paper,"Detect, Measure"," Implemented in Java with approximately 7,500 lines of code. Uses DKPro toolkit for NLP, pre-trained GloVe word embeddings, Deeplearning4j for vector operations, and WEKA for machine learning.","Preprocesses and vectorizes privacy policy text
+Identifies GDPR-relevant metadata using ML, similarity, and keyword-based classification
+Checks identified metadata against completeness criteria
+Generates a completeness analysis report","Implemented, Validated","Validated on a test set of 48 privacy policies. Achieved 92.9% precision and 89.8% recall in detecting incompleteness issues. Compared against a keyword-based baseline, showing significant improvements in accuracy."
+Bankauskaite 2018,An approach: SysML-based automated completeness evaluation of the system requirements specification,,MagicDraw,Referenced,"Detect, Measure",CASE tool that supports SysML modeling and implements the proposed completeness evaluation approach,"upports SysML modeling following the MBSE Grid method
+Calculates and displays completeness metrics
+Generates charts for visualizing completeness data","Implemented, Validated",The tool was used in the case study to implement the proposed approach and evaluate the completeness of requirements in a commercial project. The paper demonstrates the tool's ability to calculate metrics and generate charts for analysis.
+Crapo 2017,Requirements Capture and Analysis in ASSERT(TM),,ASSERT™,"Proposed
+","Detect, Measure, Correct","The ASSERT™ platform includes components for requirements capture (using SRL), requirements analysis (using translation to FOL and then to target analysis tool format), and test case generation.
+","Captures requirements in a controlled natural language, translates them for analysis, performs analysis including completeness checks, and generates test cases and procedures.","Proposed, Implemented, Validated","Validated through use on multiple projects within GE. In one avionics project, it processed 1002 requirements and generated over 19,000 test cases. A representative subset of test cases was manually verified."
+Luitel 2024,Improving requirements completeness: automated assistance through large language models,,BERT-based requirements completeness checker,Proposed in this paper,"Detect, Measure","Python implementation using SpaCy version 3.2.2, Transformers library version 4.16.2 by Hugging Face, WEKA 3-8-5, WikiDoMiner","Parses requirements, generates BERT predictions, filters predictions, recommends potentially missing terminology","Implemented, Validated","Evaluated on 40 requirements documents from PURE dataset, using simulated incompleteness"
+Ahmad 2018,A tool-based boilerplate technique to improve SRS quality: An evaluation,,Tool-based Boilerplate Prototype,Proposed in this paper,"Detect, Measure, Correct","A prototype developed for producing an SRS for an information management system, covering Section 3.2 of SRS (functional requirements)","Guides requirements engineers in writing complete software requirements
+Provides templates for essential requirements to ensure completeness
+Auto-generates wireframe interfaces to improve correctness and completeness
+Ensures uniform sentence structure for consistency and completeness","Proposed, Implemented, Validated","Validated through expert judgment. Ten experts evaluated the tool using a case study and provided feedback on a 5-point Likert scale for comprehensibility, correctness, and consistency, which indirectly assess completeness."
+Kravari 2021,Sense: A flow-down semantics-based requirements engineering framework,,"SENSE Framework
+",Proposed in this paper,"Detect, Measure, Correct","Java-based framework using Apache Jena for ontology processing
+","Formalizes requirements using boilerplates, provides recommendations, performs completeness validation checks","Proposed, Implemented, Validated",Validated through user experiments and statistical analysis as described in the paper
+Abbadi 2022,Enhancing Requirements Completeness of Automated Driving System in Concept Phase,,HAZOP (Hazard and Operability Study),Referenced,Detect,Not described in detail,Systematic method to identify potential hazards and operational problems,Referenced,Not validated in this paper
+HuffmanHayes 2020,Towards Improved Network Security Requirements and Policy: Domain-Specific Completeness Analysis via Topic Modeling,,LDA-based Topic Modeling Tool,"Proposed in this paper
+","Detect, Measure","Utilizes Latent Dirichlet Allocation (LDA) to analyze a collection of AUP documents and identify latent topics.
+
+","Identifies topics in AUP documents, provides topic loadings for each document, and helps determine topic coverage.","Proposed, Implemented, Validated","Validated through expert evaluation by 25 students on 23 randomly selected policy documents. Accuracy, recall, precision, and F1 measures were used to assess performance."
+Xiang 2023,PolicyChecker: Analyzing the GDPR Completeness of Mobile Apps' Privacy Policies,,PolicyChecker,Proposed in this paper,"Detect, Measure","A framework implemented using Natural Language Processing techniques, including Semantic Role Labeling, Named Entity Recognition, and textual similarity comparison.",Automatically detects completeness violations in privacy policies based on GDPR requirements (both mandatory and if-applicable).,"Proposed, Implemented, Validated","Validated using a dataset of 300 manually annotated privacy policies. Achieved 88.5% accuracy, 78.2% precision, 83.0% recall, and 80.0% F1-score on average."
+Al-Kasabera 2020,An automated approach to validate requirements specification,,Unnamed programmed tool,Proposed in this paper,Detect,"Developed using Microsoft Excel and XML, used in conjunction with IBM Rational Rose and Visual Paradigm software"," Transforms use case diagrams into XML format, extracts elements, and applies UML rules to check correctness and completeness","Implemented, Validated","Validated through case study on ""Online Shopping"" use case diagram"
+Stephen 2020,Evaluation of software requirement specification based on IEEE 830 quality properties,,SRS Quality Evaluation Prototype,Proposed in this paper,"Detect, Measure, Correct",Web-based system with a database for storing knowledge bases and SRS documents,"Extracts text from SRS documents
+Performs pattern matching against IEEE 830 topics and synonyms
+Identifies stakeholders and functional requirements
+Detects vague words and possible data types
+Evaluates test cases for functional requirements
+Calculates quality scores for completeness, correctness, consistency, and preciseness","Implemented, Validated",alidated through a case study on an accounting domain SRS. The tool successfully measured various quality aspects of the SRS and provided quantitative results.
+Torre 2020,An AI-Assisted Approach for Checking the Completeness of Privacy Policies against GDPR,,AI-assisted metadata identification and completeness checking tool,Proposed in this paper,"Detect, Measure","The tool implements the proposed approach using NLP and ML techniques. It uses the DKPro toolkit for NLP, GloVe for word embeddings, and WEKA for ML classification.","The tool processes privacy policy text, identifies metadata types, and checks for completeness against predefined criteria.","Proposed, Implemented, Validated",The tool was validated through a case study on 24 unseen privacy policies. It achieved a precision of 85% and recall of 96% in detecting incompleteness issues.
+Jiménez 2023,USQA: A User Story Quality Analyzer prototype for supporting software engineering students,,User Story Quality Analyzer (USQA),Proposed in this paper,"Detect, Measure","Web-based application using Python, Flask, and Natural Language Processing libraries (Spacy, NLTK, Hunspell, Matcher)","Analyzes user stories for completeness, usefulness (length), and polysemes
+Provides feedback to users on the quality of their user stories
+Detects spelling errors","Implemented, Validated","Validated through three experiments: reliability test with expert-written user stories, usability evaluation with students, and error classification analysis. Results showed high accuracy for completeness detection and good usability scores."
+Ko 2019,Automatic recommendation to omitted steps in use case specification,,ScenarioAmigo,Proposed in this paper,"Detect, Measure, Correct"," Developed using Java, SWT, JUNG, WordNet, JAWS, Stanford Parser, and MySQL","Manage scenario lists for projects
+Specify use case specifications
+Automatically identify scenario patterns
+Recommend steps for omitted parts in scenarios
+Visualize scenario flow graphs and patterns","Implemented, Validated",Validated through three experiments as described in the Evaluation section above
+Meincke 2020,"Requirements in the loop : A computer-Aided analysis of consistency, completeness, and correctness of requirements",,BTC EmbeddedPlatform,Proposed in this paper,"Detect, Measure, Correct",Software tool implementing the Universal Pattern language for requirement formalization and model checking for analysis,"Imports requirements from various sources (e.g., Excel)
+Provides a graphical interface for formalizing requirements using the Simplified Universal Pattern language
+Performs consistency, completeness, and correctness analyses using model checking
+Generates traces for inconsistencies and completeness verification
+Allows creation and verification of test cases for correctness checking
+","Implemented, Validated
+","Demonstrated through a case study with a simple LCD projector control unit. The tool successfully identified inconsistencies, verified completeness after corrections, and allowed correctness checking through test cases."
